@@ -1,7 +1,29 @@
 aid: black-unique
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/black-unique.png
 name: black-unique
-description: black-unique is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Black Unique (全球购骑士特权, "Global Shopping Knight Privilege") is a membership-based
+  consumer e-commerce and discounts platform founded in 2018 and headquartered in
+  Guangzhou, China. Its core product is a privileges/membership card that aggregates
+  discounts and special offers across a wide range of consumer categories: online
+  shopping on major marketplaces such as Tmall, JD.com and Kaola, in-person shopping
+  at international duty-free shops, outlets and supermarkets across 24-plus countries,
+  plus dining, entertainment, travel and fuel. The company operates a consumer-facing
+  app and website rather than a public developer program, and is backed by Qiming
+  Venture Partners along with CCV, Eastern Bell Venture Capital and INCE Capital. It
+  was added to the API Evangelist network as a Qiming portfolio lead; enrichment found
+  no public API, developer portal, SDK, or other developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/black-unique/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,19 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-developer-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- E-commerce
+- Consumer
+- Membership
+- Discounts
+- Retail
+- Loyalty
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://black-unique.com
+  url: https://www.black-unique.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
