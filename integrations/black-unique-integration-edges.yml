@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/black-unique/integrations
+- https://n8n.io/integrations/black-unique/
+- https://composio.dev/toolkits/black-unique
+- https://monid.ai/tools/black-unique
+checked:
+- https://composio.dev/toolkits/black-unique
+- https://monid.ai/tools/black-unique
+- https://n8n.io/integrations/black-unique/
+- https://zapier.com/apps/black-unique/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
